@@ -1,0 +1,22 @@
+body{
+    background-color: #F3F1FF;
+}
+.brand-logo{
+    width: 40px;
+}
+.navbar img{
+    width: 40px;
+}
+.top{
+    color: purple;
+}
+.player img{
+    width: 56px;
+}
+main{
+    max-width: 870px;
+}
+.top-player{
+    background-color: powderblue;
+
+}
