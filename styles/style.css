@@ -1,22 +1,120 @@
 body{
+    font-family: 'Roboto', sans-serif;
     background-color: #F3F1FF;
 }
-.brand-logo{
-    width: 40px;
+.container{
+    padding-left:0px;
+    max-width: 870px;
+    margin-bottom: 36px;
 }
+.making-header-center{
+
+
+    background-color: #007BFF;
+}
+
+
 .navbar img{
     width: 40px;
 }
-.top{
-    color: purple;
-}
+
 .player img{
     width: 56px;
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
 }
+.player img:hover{
+    overflow: hidden;
+    transform: scale(1.2);
+
+}
+
+.top{
+    color: rebeccapurple;
+}
+
+
 main{
     max-width: 870px;
+    background-color: #fff;
+    margin-bottom: 20px;
 }
 .top-player{
-    background-color: powderblue;
 
+}
+
+.top-player-section{
+
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   border: none;
+   border-radius: 10px;
+
+
+}
+
+.top-player-section h1{
+    margin-top: 20px;
+}
+
+.line{
+   margin-left: 30px;
+    width: 810px;
+    height: 2px;
+    margin-bottom: 20px;
+    background-color: #D1D1D1;
+    padding-bottom: 5x;
+}
+
+.top-blogs img{
+    width: 177px;
+} 
+
+.top-blogs a{
+    color: #562EFF;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.bottom-section{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.custom-card-size{
+    display: flex;
+    border: none;
+    box-shadow: 8px 5px 11px -5px rgba(0,0,0,0.75);
+    width: 260.42px;
+    /* height: 280.79px; */
+    margin: 10px 30px;
+
+    border-radius: 11px !important;
+}
+ .star{
+
+width:15px; 
+padding: 2px;
+position: relative;
+}
+.time {
+
+    background-color: #FFE4E8;
+    padding: 5px 8px;
+    border-radius: 20px;
+    margin-left:20px;
+
+}
+.time img {
+    width: 20px;
+    padding-right: 3px;
+}
+.spans-style{
+
+    width: 100%;
+} 
+.card-text{
+    color: magenta;
 }
